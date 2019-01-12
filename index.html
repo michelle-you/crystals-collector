@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Crystals Collector</h1>
+
+    <p>You will be give a random number at the start of the game.</p>
+    
+    <p>There are four crystals below. By clickng on a crystal you will add a specific amount of points to your totalscore.</p>
+    
+    <p>You win the game by matching your total score to a random number. You lose the game if your total score goesabove the random number.</p>
+    
+    <p>The value of each cyrstal is hidden from you until you click on it.</p>
+    
+    <p>Each time when the game starts, the game will cange the values of each crystal.</p>
+    
+    <div>
+        <h3 id="randomNumber">Random Number</h3>
+    </div>
+    <br>
+    <div id="score">
+        <p id="wins">Wins</p>
+        <p id="losses">Losses</p>
+    </div>
+
+    <div id="crystals">
+        <img width=200px height=200px src="https://smhttp-ssl-64693.nexcesscdn.net/media/wysiwyg/crystal-meanings/amethyst-amethystmeaning.jpg"
+            alt="crystal 1" id="crystal1">
+        <img width=200px height=200px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6w0NR_2tKyycuwxE-JDd0yV_iBzRghCLMdaA8viXkuxfZb5nG83FwU4"
+            alt="crystal 2" id="crystal2">
+        <img width=200px height=200px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Gg_gQdbO1zC3Wkpt9W45B1Spxo7U0mjia7MzugNZL0MMWOhcU7gKQoI"
+            alt="crystal 3" id="crystal3">
+        <img width=200px height=200px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCCLgw7AWKfGEpU6RHrn77-pDKxJl8-9yTr7UEin-Q6SHIyvHXur6Fc4"
+            alt="crystal 4" id="crystal4">
+    </div>
+
+    <div>
+        <p><u>Your total score is:</p></u>
+    </div>
+
+    <div>
+        <p id="userScore">User Score</p>
+    </div>
+    
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
